@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>Document</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="contenedorHeader">
+        <img class="contenedorHeader-logo"src="/imagenes/logo_ticmas.png" alt="Logo Ticmas">
+        <h2 class="contenedorHeader-subtituloPrincipal">Proyecto de Curriculum Vitae </h2>
+      </div>  
+    </header>
+        
+    <main class="contenedorPrincipal">   
+      <section class="contenedorPrincipal-informacion">
+          <img
+            src="imagenes/foto_perfil.jpg"
+            alt="Foto de perfil"
+            class="contenedorPrincipal-informacion-fotoPerfil"
+          />
+          <div  class="contenedorPrincipal-informacion-mostrarDefault">
+            <h3 class="contenedorPrincipal-informacion-descripcion">Hola, mi nombre es</h3>
+            <h1 class="contenedorPrincipal-informacion-dato">Leslie Morgan</h1>          
+          </div>
+
+          <div class="contenedorPrincipal-informacion-mostrarTel esconder_div">
+            <h3 class="contenedorPrincipal-informacion-descripcion">Mi número de teléfono es</h3>
+            <h2 class="contenedorPrincipal-informacion-dato">(313) 548-2467</h2>
+          </div>
+
+          <div class="contenedorPrincipal-informacion-mostrarEmail esconder_div">
+            <h3 class="contenedorPrincipal-informacion-descripcion">Mi correo electrónico es</h3>
+            <h2 class="contenedorPrincipal-informacion-dato">leslie.morgan@ejemplo.com</h2>
+          </div>
+
+          <div class="contenedorPrincipal-informacion-botones">
+          <button onclick="mostrarNombre()" class="btn ">Información básica</button>
+          <button onclick="mostrarTelefono()" class="btn ">Teléfono</button>
+          <button onclick="mostrarEmail()" class="btn ">E-mail</button>
+          </div>
+      </section>
+      <div class="contenedorPrincipal-contenedorExp">      
+        <ul class="contenedorPrincipal-contenedorExp-contenido">
+          <li><h4>Habilidades</h4></li>
+          <li class="itemsDeLista">Asumir las críticas de forma constructiva</li>
+          <li class="itemsDeLista">Capacidad de liderazgo</li>
+          <li class="itemsDeLista">Facilidad para trabajar en equipo</li>
+        </ul>
+        <ul class="contenedorPrincipal-contenedorExp-contenido">
+          <li><h4>Experiencia laboral</h4></li>
+          <li class="itemsDeLista">(Actualidad) Colegio San Juan. Prácticas</li>
+          <li class="itemsDeLista"> (2020) Polaris. Atención al cliente</li>
+          <li class="itemsDeLista">(2018) Semira. Departamento administrativo</li>
+        </ul>      
+      </div>     
+    </main>
+
+    <footer>
+			<div class="contenedorFooter">
+        <p>&copy Santiago Malynowskyj</p>
+				<ul class="footer-redes-list">
+					<li>
+						<a class="footer-redes-list-link" href="#">
+							<img src="imagenes/logo_facebook.png" alt="Logo de Facebook">
+						</a>
+					</li>
+					<li>
+						<a class="footer-redes-list-link" href="#">
+							<img src="imagenes/logo_instagram.png" alt="Logo de Instagram">
+						</a>
+					</li>
+					<li>
+						<a class="footer-redes-list-link" href="#">
+							<img src="imagenes/logo_whatsapp.png"  alt="Logo de Whatsapp">
+						</a>
+					</li>
+				</ul>       
+    </footer>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
