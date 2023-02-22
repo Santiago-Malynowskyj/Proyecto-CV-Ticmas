@@ -131,8 +131,6 @@ body {
   align-items: center;
   flex-wrap: wrap;
   background-color: #fffbeb;
-  position: absolute;
-  bottom: 0;
 }
 .footer-redes-list {
   display: flex;
